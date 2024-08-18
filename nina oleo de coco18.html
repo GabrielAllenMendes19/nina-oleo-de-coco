@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NINA ÓLEO DE CÔCO - Produtos naturais de óleo de coco para saúde e beleza.">
+    <title>NINA ÓLEO DE CÔCO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/antd/4.17.0/antd.min.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #4caf50;
+            padding: 10px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+        .banner {
+            position: relative;
+            height: 300px;
+            overflow: hidden;
+        }
+        .banner img {
+            width: 100%;
+            height: auto;
+        }
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .product-card {
+            background-color: white;
+            border: 1px solid #eaeaea;
+            border-radius: 5px;
+            width: 30%;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+        footer {
+            background-color: #4caf50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="C:\Users\Gabriel mendes\3D Objects\logo.png" alt="NINA ÓLEO DE CÔCO" style="height: 60px;">
+    <nav>
+        <a href="#home" style="color: white;">Home</a>
+        <a href="#produtos" style="color: white;">Produtos</a>
+        <a href="#sobre" style="color: white;">Sobre Nós</a>
+        <a href="#contato" style="color: white;">Contato</a>
+    </nav>
+</header>
+
+<div class="banner">
+    <img src="C:\Users\Gabriel mendes\3D Objects\OIP.jpeg" alt="Promoção 1" style="width: 1350px; height: 600px;">
+    <img src="C:\Users\Gabriel mendes\3D Objects\banner1.jpeg" alt="Benefícios" style="display: none ; width: 1350px; height: 600px;">
+</div>
+
+<section id="produtos">
+    <h2>Seção de Produtos</h2>
+    <div class="product-list">
+        <div class="product-card">
+            <h3>Óleo puro de coco</h3>
+            <img src="C:\Users\Gabriel mendes\3D Objects\banner1.png.png" alt="Óleo de Coco Puro" style="width: 90px;">
+            <p>Compre os nossos produtos apartir de 200 Mts</p>
+            <button>Comprar Agora</button>
+        </div>
+    </div>
+</section>
+
+<section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Bem-vindo à Nina Óleo de Côco, onde a natureza encontra a qualidade! Somos uma pequena empresa dedicada à produção e comercialização de óleo de coco puro e natural, proveniente de fontes sustentáveis. Nossa paixão pelo que fazemos nos leva a oferecer produtos que não apenas promovem a saúde, mas também respeitam o meio ambiente.
+
+        Nossa jornada começou com o desejo de trazer os incríveis benefícios do óleo de coco para o dia a dia das pessoas. Trabalhamos em estreita colaboração com agricultores locais, garantindo que cada fruta seja colhida com cuidado e respeito. O nosso processo de extração é feito de maneira artesanal, preservando as propriedades nutritivas e o sabor tropical do coco.
+        
+        Na Nina Óleo de Côco, acreditamos na transparência e na qualidade. Todos os nossos produtos são livres de aditivos e conservantes, garantindo que você receba apenas o melhor que a natureza tem a oferecer. Seja para uso culinário, cuidados com a pele ou cabelo, nosso óleo de coco é a escolha perfeita para quem busca um estilo de vida saudável e sustentável.
+        
+        Agradecemos por escolher a NinaC:\Users\Gabriel mendes\3D Objects\OIP (1).jpeg Óleo de Côco e por fazer parte da nossa história. Juntos, podemos promover um mundo mais saudável e sustentável
+        </p>
+    <img src="C:\Users\Gabriel mendes\3D Objects\OIP (1).jpeg" alt="Equipe" style="width: 100%; max-width: 1350px; height: 600px;">
+</section>
+
+<section id="beneficios">
+    <h2>Benefícios do Óleo de Coco</h2>
+    <p>1.Saude Cardiovascular
+        2.Propriedades Antibacterianas
+        3.Apoio a Perda de Peso
+        4.Cuidados da Pele 
+        5.Cuidados do cabelo
+        6.Melhoria da Digestam
+        7.Aumento na Energia
+        8.Suporte ao Sistema Imunologico
+    </p>
+</section>
+
+<section id="testemunhos">
+    <h2>Testemunhos de Clientes</h2>
+    <p>Feedback de clientes que já utilizaram o produto.</p>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <form>
+        <input type="text" placeholder="Seu Nome" required>
+        <input type="email" placeholder="Seu Email" required>
+        <textarea placeholder="Sua Mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+        <p>Telefone: +258 878739555, +258 848739504</p>
+    </form>
+</section>
+
+<section id="localizacao">
+    <h2>Localização</h2>
+    <p>Av.Josina Machel, Matola Gare.</p>
+    <!-- Integrar mapa interativo -->
+</section>
+
+<footer>
+    <p>Siga-nos nas redes sociais</p>
+    <a href="#" style="color: white;">Facebook</a>
+    <a href="#" style="color: white;">Instagram</a>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/antd/4.17.0/antd.min.js"></script>
+<script>
+    // Script para slider de banner
+    let currentIndex = 0;
+    const banners = document.querySelectorAll('.banner img');
+    setInterval(() => {
+        banners[currentIndex].style.display = 'none';
+        currentIndex = (currentIndex + 1) % banners.length;
+        banners[currentIndex].style.display = 'block';
+    }, 3000);
+</script>
+
+</body>
+</html>
